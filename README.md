@@ -18,7 +18,9 @@
 
 ##### List all the options:
 *Execute `--help` to display options*
-```./text_digest.py --help
+
+```
+./text_digest.py --help
 shell#: text_digest.py [-h] [-f FILE_PATH] [-d] [-c] [-u] [-w]
                       [-o WORD_OCCURANCE_LIMIT] [-s SEARCH_FOR_WORD] [-a] [-l]
                       [-y] [-n MIN_LENGTH] [-m MAX_LENGTH] [-i] [-t]
@@ -56,4 +58,5 @@ optional arguments:
   -i, --include-common  Includes common words (ex: the,a,an,is). Default is
                         False
   -t, --file-modify-time
-                        Show last time file was modified. Default is False```
+                        Show last time file was modified. Default is False
+```
